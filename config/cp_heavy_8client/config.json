@@ -264,5 +264,9 @@
 			"Key": "testProfile",
 			"Value": "heavy-8"
 		}
-	]
+	],
+	"PrometheusManifestPaths": [
+		"pkg/prometheus/manifests/setup",
+		"pkg/prometheus/manifests"
+]
 }

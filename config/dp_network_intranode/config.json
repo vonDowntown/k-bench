@@ -160,5 +160,9 @@
 		"Value": "dp_network_intranode"
 	}
 ],
-"WavefrontPathDir": "/home/vmware"
+"WavefrontPathDir": "/home/vmware",
+"PrometheusManifestPaths": [
+        "pkg/prometheus/manifests/setup",
+        "pkg/prometheus/manifests"
+]
 }

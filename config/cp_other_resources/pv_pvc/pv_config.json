@@ -25,5 +25,9 @@
 			},
 			"RepeatTimes": 0
 		}
-	]
+	],
+	"PrometheusManifestPaths": [
+		"pkg/prometheus/manifests/setup",
+		"pkg/prometheus/manifests"
+]
 }

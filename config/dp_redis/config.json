@@ -26,7 +26,7 @@
 	}
   },
   {
-        "Predicate": 
+        "Predicate":
         {
                                 "Resource": "kbench-pod-namespace/pod/kbench-pod-oid-0-tid-0/rediscontainer",
                                 "Command": "ls /memtier_benchmark/memtier_benchmark",
@@ -96,5 +96,9 @@
 		"Value": "redis"
 	}
 ],
-"WavefrontPathDir": "/home/vmware"
+"WavefrontPathDir": "/home/vmware",
+"PrometheusManifestPaths": [
+        "pkg/prometheus/manifests/setup",
+        "pkg/prometheus/manifests"
+]
 }

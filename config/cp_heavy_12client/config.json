@@ -258,5 +258,9 @@
 				"Count": 12
 			}
 		}
-	]
+	],
+	"PrometheusManifestPaths": [
+		"pkg/prometheus/manifests/setup",
+		"pkg/prometheus/manifests"
+]
 }
